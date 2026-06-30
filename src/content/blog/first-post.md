@@ -2,7 +2,7 @@
 title: "Effortless Openings: Full Repertoire Book"
 description: "A complete, interactive PDF publication detailing a practical 1.e4 e5 repertoire for the 2000-rated player."
 pubDate: 2026-06-30
-heroImage: "/blog-placeholder-about.jpg"
+heroImage: "../../assets/blog-placeholder-3.jpg"
 ---
 
 The complete compiled manuscript for **Effortless Openings** is available below. This guide covers deep positional patterns for to learn, understand, and implement for intermediate and advanced chess players.
