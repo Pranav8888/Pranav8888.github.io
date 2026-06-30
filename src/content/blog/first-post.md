@@ -1,7 +1,7 @@
 ---
 title: 'Effortless Openings'
 description: 'A Practical 1.e4 e5 Repertoire for the 2000-Rated Player'
-pubDate: 'Jun 30 2026'
+pubDate: '2026-06-30'
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
