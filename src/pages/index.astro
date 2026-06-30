@@ -9,39 +9,87 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: 100%;
+				max-width: 960px;
+				margin: 0 auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2.5rem;
+				font-weight: 700;
+				margin-bottom: 0.5em;
+			}
+			.intro {
+				font-size: 1.2rem;
+				line-height: 1.6;
+				color: #4a5568;
+				margin-bottom: 2em;
+			}
+			.section-title {
+				font-size: 1.5rem;
+				font-weight: 600;
+				margin-top: 2em;
+				margin-bottom: 0.75em;
+				border-bottom: 1px solid #e2e8f0;
+				padding-bottom: 0.25em;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+			}
+			li {
+				margin-bottom: 1em;
+				line-height: 1.5;
+			}
+			.tagline {
+				font-style: italic;
+				color: #718096;
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
+			<h1>Welcome to My Blog</h1>
+			<p class="intro">
+				I am an Electrical and Computer Engineering student exploring the intersections of hardware, 
+				deep technical optimization, and systemic analysis. This space serves as an open ledger for my research, 
+				engineering projects, and analytical breakdowns of complex systems.
 			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
+
+			<h2 class="section-title">Core Engineering & Science Focus</h2>
 			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+				<li>
+					<strong>Thermal Dynamics & Semiconductors:</strong> Exploring solid-state cooling architectures, 
+					nanoscale breakthroughs, and device-level micro-modeling.
+				</li>
+				<li>
+					<strong>Embedded Systems & AI Pipelines:</strong> Engineering hardware integrations, 
+					neural network optimization, and high-fidelity signal workflows.
+				</li>
 			</ul>
+
+			<h2 class="section-title">Analytical Tangents & Systems</h2>
 			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+				Beyond core engineering, I look at the world through a lens of dense calculation and structural frameworks. Expect deep dives into:
 			</p>
+			<ul>
+				<li>
+					<strong>Positional Chess Theory:</strong> Deconstructing concrete opening repertoires and positional calculation models for the competitive player.
+				</li>
+				<li>
+					<strong>Tennis Dynamics:</strong> Analyzing technical execution, biometric efficiencies, and the mathematical optimization of elite performance.
+				</li>
+				<li>
+					<strong>Global Economics & Geopolitics:</strong> Mapping out macroeconomic trends, trade networks, and the geopolitical forces shaping the global technology and semiconductor landscape.
+				</li>
+			</ul>
+
+			<h2 class="section-title">Recent Updates</h2>
 			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+				Head over to the <a href="/blog">Blog</a> tab to explore published entries, ranging from rigorous tactical chess matrices to thermodynamic deep dives.
 			</p>
 		</main>
 		<Footer />
